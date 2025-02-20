@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: gold;
+}
+
+.timerContainer {
+    text-align: center;
+}
+
+.timerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.hoursMinsSecs {
+    display: flex;
+    gap: 1em;
+}
+
+input {
+    height: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    width: 3em;
+    font-size: 1.8em;
+    color: rgb(200, 200, 200);
+}
+
+input::placeholder {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.8em;
+    color: rgb(200, 200, 200);
+}
+
+.timerInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.timerDisplayContainer {
+    text-align: center;
+    margin-top: 2em;
+    display: none;
+}
+
+button {
+    font-family: 'inter';
+    padding: 1em 2em;
+    border-radius: 2em;
+    border: none;
+    color: gold;
+}
+
+.timerDisplay {
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+
+.displayTitle {
+    font-size: 2em;
+}
+
+.display {
+    font-size: 4em;
+}
