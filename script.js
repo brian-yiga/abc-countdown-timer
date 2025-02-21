@@ -7,6 +7,10 @@ const timerForm = document.querySelector(".timerForm");
 function totalTimeInMs(event) {
   event.preventDefault();
 
+   // Hide the form and show the countdown display
+   document.getElementById("setTime").style.display = "none";
+   document.getElementById("displayTime").style.display = "block";
+
   //capture input data
   const hoursEntered = hours.value;
   const minutesEntered = minutes.value;
@@ -51,4 +55,5 @@ function startCountdown(time) {
 }
 
 timerForm.addEventListener("submit", totalTimeInMs);
+
 

@@ -38,13 +38,15 @@ input {
     border-radius: 10px;
     border: 1px solid rgb(192, 192, 192);
     width: 3em;
-    font-size: 1.8em;
+    font-size: 1.8em; /* Ensure the font size matches placeholder */
     color: rgb(200, 200, 200);
+    text-align: center; /* Center text input */
+    padding-top: 5px; /* Add padding for vertical alignment */
+    padding-bottom: 5px;
 }
 
 input::placeholder {
     text-align: center;
-    padding-top: 15px;
     font-size: 1.8em;
     color: rgb(200, 200, 200);
 }
